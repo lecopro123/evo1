@@ -126,7 +126,7 @@ margin: 15px;
 .rowss-e{
     display: flex;
     align-items: center;
-    justify-content:end;
+    justify-content:flex-end;
     row-gap: 1rem;
     column-gap: 1.5rem;
 }
