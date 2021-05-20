@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/EVO/static/css/main.0a765c7b.chunk.css",
+    "main.js": "/EVO/static/js/main.bd0d1af3.chunk.js",
+    "main.js.map": "/EVO/static/js/main.bd0d1af3.chunk.js.map",
+    "runtime-main.js": "/EVO/static/js/runtime-main.cbd9ec19.js",
+    "runtime-main.js.map": "/EVO/static/js/runtime-main.cbd9ec19.js.map",
+    "static/js/2.fa581dff.chunk.js": "/EVO/static/js/2.fa581dff.chunk.js",
+    "static/js/2.fa581dff.chunk.js.map": "/EVO/static/js/2.fa581dff.chunk.js.map",
+    "index.html": "/EVO/index.html",
+    "static/css/main.0a765c7b.chunk.css.map": "/EVO/static/css/main.0a765c7b.chunk.css.map",
+    "static/js/2.fa581dff.chunk.js.LICENSE.txt": "/EVO/static/js/2.fa581dff.chunk.js.LICENSE.txt",
+    "static/media/arrows.86f2a378.png": "/EVO/static/media/arrows.86f2a378.png",
+    "static/media/cal.3fdfe216.png": "/EVO/static/media/cal.3fdfe216.png",
+    "static/media/carb.2e5bf661.png": "/EVO/static/media/carb.2e5bf661.png",
+    "static/media/food.ac9d8bd2.jpg": "/EVO/static/media/food.ac9d8bd2.jpg",
+    "static/media/moon.a3325cc3.svg": "/EVO/static/media/moon.a3325cc3.svg",
+    "static/media/notfound.c56a980e.svg": "/EVO/static/media/notfound.c56a980e.svg",
+    "static/media/protein.761f0a2f.png": "/EVO/static/media/protein.761f0a2f.png",
+    "static/media/search.ac1d7510.svg": "/EVO/static/media/search.ac1d7510.svg",
+    "static/media/sun.fa0bdb5b.svg": "/EVO/static/media/sun.fa0bdb5b.svg",
+    "static/media/trans-fat.5f044eb3.png": "/EVO/static/media/trans-fat.5f044eb3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cbd9ec19.js",
+    "static/js/2.fa581dff.chunk.js",
+    "static/css/main.0a765c7b.chunk.css",
+    "static/js/main.bd0d1af3.chunk.js"
+  ]
+}
