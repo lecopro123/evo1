@@ -1,0 +1,218 @@
+
+.dish-con{
+    background-color: #F4F7F6;
+    position:fixed;
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+}
+
+.add-main{
+    background-color: white;
+    position: fixed;
+    width: 40%;
+    height:55%;
+    padding: 20px;
+    /*width: 50vw;
+    max-width: 300px;
+   /* max-height: 500px;*/
+    top: 20%;
+    left: 20%;
+    transform: translate(-50%, -32%);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.edit-main{
+    background-color: white;
+    position: fixed;
+    width: 40%;
+    height:39.5%;
+    padding: 20px;
+    /*width: 50vw;
+    max-width: 300px;
+   /* max-height: 500px;*/
+    top: 20%;
+    left: 20%;
+    transform: translate(-50%, 99.5%);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.table-main{
+    background-color: white;
+    position: fixed;
+    width: 40%;
+    height:50%;
+    padding: 20px;
+    /*width: 50vw;
+    max-width: 300px;
+   /* max-height: 500px;*/
+    top: 20%;
+    left: 20%;
+    transform: translate(70%, 30%);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}  
+.rowss{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    row-gap: 1rem;
+    column-gap: 1.5rem;
+}
+.end{
+    justify-content: flex-end;
+    cursor: pointer; 
+}
+.standard{
+    width: 80%;
+    outline: none;
+    border:none;
+    border-bottom: 2px solid black;
+    height:30px;
+    padding: 10px;
+    font-size:18px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.standard::placeholder{
+    color:black;
+}
+.standard:focus::placeholder {
+    color: transparent;
+    transition-duration: 0.5s;
+}
+.short{
+    width: 50%;
+}
+.top{
+    margin:20px;
+    font-weight:bold;
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif
+}
+.topE{
+    margin:10px;
+    font-weight:bold;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif
+}
+.but{
+    font-family:'Times New Roman', Times, serif;
+    font-weight:bold;
+    font-size: 15px;
+    width: 120px;
+    height: 30px;
+    border-radius:30px;
+    border: 1px solid black;
+    background-color:white;
+}
+.but:hover{
+    background-color:black;
+    border: 2px solid white;
+    color:white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+}
+
+
+/**table**/
+.dish {
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-collapse: collapse;
+    border: 3px solid #ddd;
+    width: max-content;
+    overflow: auto;
+  }
+
+  
+  
+  .dish td, .dish th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .dish tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .dish tr:hover {background-color: #ddd;}
+  
+  .dish th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #363636;
+    color: white;
+  }
+
+  /**loader**/
+  .loader {
+    border: 5px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 5px solid black;
+    width: 50px;
+    height: 50px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 1.5s linear infinite;
+  }
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  /***nav bar***/
+
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(100, 95, 95, 0.4);
+    z-index: 9999999999;
+}
+
+.nav-main {
+    position: fixed;
+    background-color: black;
+    width: 90vw;
+    max-width: 500px;
+    height: max-content;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    color: white;
+    animation-duration: 600ms;
+    animation-name: slidein;
+    z-index: 9999;
+}
+.display-block {
+    display: block;
+}
+
+.display-none {
+    display: none;
+}
+
+@keyframes slidein {
+    from {
+    opacity: 0;
+      margin-top: 100%;
+      /*width: 300%;*/
+    }
+  
+    to {
+        opacity: 1;
+      margin-top: 0%;
+      /*width: 100%;*/
+    }
+}
+.active{
+    font-size: 30px;
+}
+.links{
+    color:white;
+    text-decoration: none;
+}
