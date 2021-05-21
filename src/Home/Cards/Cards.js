@@ -4,7 +4,7 @@ import carb from '../../carb.png';
 import pro from '../../protein.png';
 import fpat from '../../trans-fat.png';
 import cal from '../../cal.png';
-import ReactStars from 'react-stars'
+import ReactStars from 'react-stars';
 
 
 const Card = ({ item, i, theme }) => {
@@ -14,9 +14,9 @@ const Card = ({ item, i, theme }) => {
     const cook = theme ? 'cookD' : 'cook';
     const cals = theme ? 'calD' : 'cal';
     return (
-        <div className="rowss" key={parseFloat(i) + 1.125}>
+        <div className="rowss">
             <div className={cm}>
-                <div className="rowss-e">
+                <div className="rowss-e cg">
                     <img className="imgs" width="100" height="100" src={food} alt="food" />
                     <div className="colss">
                         <div style={{ fontSize: '30px', margin: '0px', marginTop: '10px' }} className={th}>{item.Name.charAt(0).toUpperCase() + item.Name.slice(1)}</div>

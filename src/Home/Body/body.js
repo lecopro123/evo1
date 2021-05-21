@@ -33,7 +33,7 @@ const Body = ({ name, theme, toggle }) => {
                 {name === '' ?
                     <div className="card-grid">
                         {Dish.data.map((item, i) => (
-                            <Card item={item} i={i} theme={theme} />
+                            <Card key={parseFloat(i) + 1.125} item={item} i={i} theme={theme} />
                         ))}
                     </div>
                     :
@@ -47,7 +47,7 @@ const Body = ({ name, theme, toggle }) => {
                             </div>
                             :
                             Dish.data.filter(na => na.Name.toLowerCase() === name.toLowerCase()).map((item, i) => (
-                                <Card item={item} i={i} theme={theme} />
+                                <Card key={parseFloat(i) + 1.125} item={item} i={i} theme={theme} />
                             ))}
                     </div>}
                 <Footer theme={theme} toggle={toggle} />
