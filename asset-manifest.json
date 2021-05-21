@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/evol/static/css/main.0a765c7b.chunk.css",
-    "main.js": "/evol/static/js/main.bd0d1af3.chunk.js",
-    "main.js.map": "/evol/static/js/main.bd0d1af3.chunk.js.map",
+    "main.css": "/evol/static/css/main.80cc8632.chunk.css",
+    "main.js": "/evol/static/js/main.b91e9b13.chunk.js",
+    "main.js.map": "/evol/static/js/main.b91e9b13.chunk.js.map",
     "runtime-main.js": "/evol/static/js/runtime-main.e7c7109e.js",
     "runtime-main.js.map": "/evol/static/js/runtime-main.e7c7109e.js.map",
     "static/js/2.fa581dff.chunk.js": "/evol/static/js/2.fa581dff.chunk.js",
     "static/js/2.fa581dff.chunk.js.map": "/evol/static/js/2.fa581dff.chunk.js.map",
     "index.html": "/evol/index.html",
-    "static/css/main.0a765c7b.chunk.css.map": "/evol/static/css/main.0a765c7b.chunk.css.map",
+    "static/css/main.80cc8632.chunk.css.map": "/evol/static/css/main.80cc8632.chunk.css.map",
     "static/js/2.fa581dff.chunk.js.LICENSE.txt": "/evol/static/js/2.fa581dff.chunk.js.LICENSE.txt",
     "static/media/arrows.86f2a378.png": "/evol/static/media/arrows.86f2a378.png",
     "static/media/cal.3fdfe216.png": "/evol/static/media/cal.3fdfe216.png",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.e7c7109e.js",
     "static/js/2.fa581dff.chunk.js",
-    "static/css/main.0a765c7b.chunk.css",
-    "static/js/main.bd0d1af3.chunk.js"
+    "static/css/main.80cc8632.chunk.css",
+    "static/js/main.b91e9b13.chunk.js"
   ]
 }
